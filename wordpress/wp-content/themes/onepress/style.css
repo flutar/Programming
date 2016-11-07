@@ -1531,7 +1531,7 @@ h6, p, ul, ol, dl, blockquote, pre {
 
 .sticky .entry-title:after {
 	content: "\f276";
-	display: inline-block;
+	display: inline-beeeelock;
 	font-family: "FontAwesome";
 	font-style: normal;
 	font-weight: normal;
@@ -4012,3 +4012,27 @@ img.mfp-img {
 .owl-carousel .owl-buttons .owl-next .lg-icon::before {
 	content: "\e095";
 }
+
+/* style for the author description section */
+
+.about-author {
+	background-color: #EDEDED;
+	padding:20px;
+}
+
+.about-author-image {
+	float:left;
+	width:28%;
+}
+
+.about-author-text {
+	float:right;
+	width: 68%;
+}
+
+
+
+
+
+
+
