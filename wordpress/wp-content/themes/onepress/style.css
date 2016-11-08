@@ -4018,11 +4018,31 @@ img.mfp-img {
 .about-author {
 	background-color: #EDEDED;
 	padding:20px;
+	margin-bottom: 20px;
 }
 
 .about-author-image {
 	float:left;
 	width:28%;
+	position: relative;
+}
+
+.about-author-image img {
+	display: block;
+}
+
+.about-author-image p {
+	position: absolute;
+	left:0;
+	right:0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 6px 0;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .85);
+	color:#FFF;	
+	margin:0px;
 }
 
 .about-author-text {
@@ -4030,6 +4050,23 @@ img.mfp-img {
 	width: 68%;
 }
 
+.other-posts-by {
+	background-color: white;
+	padding:15px 0px 3px 15px;
+	margin-bottom: 10px;
+}
+
+.other-posts-by ul {
+	list-style-type: none;	
+}
+
+.clearfix:before, .clearfix:after {content: ""; display: table; }
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+.post-thumbnail {
+	margin-bottom: 20px;
+}
 
 
 
