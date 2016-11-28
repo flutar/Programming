@@ -20,8 +20,8 @@
 
 
 pre, code {
-  font-size: 1em;
-  font-family: Consolas, Inconsolata, Courier, monospace;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 
 code {
@@ -164,7 +164,9 @@ h2 {
 h3 {
   font-size: 14px;
   border-bottom: 1px solid #eee;
-
+  border-top: 1px solid #eee;
+  padding: 10px 5px;
+  text-align: center;
 }
 
 h4 {
@@ -184,7 +186,7 @@ table {
   padding: 0;
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 1em;
+  font-size: 14px;
   font: inherit;
   border: 0;
 }
@@ -213,12 +215,12 @@ table th:nth-child(1) {
 }
 
 table tr th, table tr td {
-  font-size: 1em;
+  font-size: 14px;
   border: 1px solid #CCC;
   margin: 0;
   padding: 0.5em 1em;
   text-align: justify !important;
-vertical-align: center;
+  vertical-align: center;
 
 }
 
